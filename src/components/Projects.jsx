@@ -6,10 +6,10 @@ const Projects = () => {
   return (
     <section
       id="Project"
-      className=" py-[50px] px-[15px] bg-gradient-to-r from-[#16161f] to-[#000000] text-blue-50"
+      className=" py-[50px] px-[15px] bg-gradient-to-r from-[#49499c] to-[#143170] text-blue-50"
     >
       <h1
-        className="text-3xl font-semibold mb-3 text-[#00dfd8]"
+        className="text-3xl font-semibold mb-3 text-[#73f79f]"
         data-aos="flip-down"
       >
         Proyectos
@@ -19,8 +19,7 @@ const Projects = () => {
         className="text-lg text-justify mt-4 font-medium  "
         data-aos="flip-down"
       >
-        Estos son algunos proyectos que he desarrollado en distintas áreas del
-        desarrollo web con mucha dedicación.
+        Estos son algunos proyectos que he desarrollado.
       </p>
       {/* //?item 1 */}
       <div className="mt-[70px]  px-[20px] grid grid-cols-3 gap-9  max-[600px]:grid-cols-1 max-[1300px]:grid-cols-2">
@@ -53,12 +52,12 @@ const Projects = () => {
             </div>
             <div className="absolute bottom-3 right-3 flex gap-3">
               <a
-                href="#"
+                href="https://github.com/Jhoel00852/app-ecomerce"
                 target="_blank"
               >
                 <i className="fa-brands fa-github text-4xl"></i>
               </a>
-              <a href="#" target="_blank">
+              <a href="https://app-ecomece-team.netlify.app/#/" target="_blank">
                 <i className="fa-sharp fa-solid fa-eye text-4xl"></i>
               </a>
             </div>
@@ -91,12 +90,12 @@ const Projects = () => {
             </div>
             <div className="absolute bottom-3 right-3 flex gap-3">
               <a
-                href="https://github.com/Droid-Jr/Poke-api"
+                href="https://github.com/Jhoel00852/app-pokemon"
                 target="_blank"
               >
                 <i className="fa-brands fa-github text-4xl"></i>
               </a>
-              <a href="https://poke-api-six-green.vercel.app/" target="_blank">
+              <a href="https://app-pokemon-jtc.netlify.app/" target="_blank">
                 <i className="fa-sharp fa-solid fa-eye text-4xl"></i>
               </a>
             </div>
@@ -128,12 +127,12 @@ const Projects = () => {
             </div>
             <div className="absolute bottom-3 right-3 flex gap-3">
               <a
-                href="https://github.com/Droid-Jr/Ryki-and-Morthy-2"
+                href="https://github.com/jhoelterrel/app_rickandmorty"
                 target="_blank"
               >
                 <i className="fa-brands fa-github text-4xl"></i>
               </a>
-              <a href="https://ryki-and-morthy-2.vercel.app/" target="_blank">
+              <a href="https://rick-and-morty-academlo-gen-25.netlify.app/" target="_blank">
                 <i className="fa-sharp fa-solid fa-eye text-4xl"></i>
               </a>
             </div>
@@ -166,12 +165,12 @@ const Projects = () => {
             </div>
             <div className="absolute bottom-3 right-3 flex gap-3">
               <a
-                href="https://github.com/Droid-Jr/Crud-de-Usuario"
+                href="https://github.com/jhoelterrel/app-crud"
                 target="_blank"
               >
                 <i className="fa-brands fa-github text-4xl"></i>
               </a>
-              <a href="https://crud-de-usuario.vercel.app/" target="_blank">
+              <a href="https://app-crud-jtc.netlify.app/" target="_blank">
                 <i className="fa-sharp fa-solid fa-eye text-4xl"></i>
               </a>
             </div>
@@ -203,12 +202,12 @@ const Projects = () => {
             </div>
             <div className="absolute bottom-3 right-3 flex gap-3">
               <a
-                href="https://github.com/Droid-Jr/clima-app"
+                href="https://github.com/jhoelterrel/app_clima"
                 target="_blank"
               >
                 <i className="fa-brands fa-github text-4xl"></i>
               </a>
-              <a href="https://clima-app-git-main-mario-carvajal.vercel.app/" target="_blank">
+              <a href="https://main--incomparable-dodol-9798d4.netlify.app/" target="_blank">
                 <i className="fa-sharp fa-solid fa-eye text-4xl"></i>
               </a>
             </div>

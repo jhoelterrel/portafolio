@@ -5,18 +5,18 @@ import style from "./style/project.module.css";
 const Contact = () => {
   return (
     <section
-      className="py-[50px] px-[15px] pb-[150px]  bg-gradient-to-r from-[#16161f] to-[#000000]  text-white "
+      className="py-[50px] px-[15px] pb-[150px]  bg-gradient-to-r from-[#49499c] to-[#143170]  text-white "
       id="Contact"
     >
       <h1
-        className="text-3xl font-semibold mb-3 text-[#00dfd8]"
+        className="text-3xl font-semibold mb-3 text-[#73f79f]"
         data-aos="flip-down"
       >
         Contacto
       </h1>
       <div className="w-[80px] h-1 rounded bg-slate-500"></div>
       <p className="text-lg text-justify mt-5 font-medium  ">
-        Puedes contactarme enviándome un correo electrónico
+        Puedes contactarme con los siguientes datos.
       </p>
 
       <div className="mt-[80px] flex flex-col gap-8  md:flex-row  ">
@@ -90,7 +90,7 @@ const Contact = () => {
         </div>
         <div className={`${style.box} basis-[60%]   p-[30px] rounded-[5px] `}>
           <form
-            action="https://formsubmit.co/droidjr10@gmail.com"
+            action="https://formsubmit.co/jhoel00742@gmail.com"
             method="POST"
             className="grid grid-cols-1   "
           >
@@ -108,7 +108,7 @@ const Contact = () => {
                 className="w-full h-10 py-[10px] px-[20px] text-base rounded-[4px]  font-medium text-black
                 focus:outline-none focus:border-2 focus:border-cyan-500 focus:ring-green-700 focus:ring-1"
                 type="email"
-                placeholder="email"
+                placeholder="Email"
                 name="email"
               />
             </div>
@@ -117,13 +117,13 @@ const Contact = () => {
                 className="w-full  text-black py-[10px] px-[20px] text-base rounded-[4px]  font-medium outline-none 
                 focus:border-2  focus:border-[#00dfd8] focus:ring-[#00dfd8] focus:ring-1 resize-none"
                 rows="12"
-                placeholder="mensaje"
+                placeholder="Mensaje"
                 name="text"
               />
             </div>
             <div className="w-full  mt-6">
               <button
-                className="w-full text-white font-bold  h-10  text-lg rounded-[4px] bg-[#14b6bb]  cursor-pointer"
+                className="w-full text-white font-bold  h-10  text-lg rounded-[4px] bg-[#73f79f]  cursor-pointer"
                 type="submit"
               >
                 Enviar

@@ -1,5 +1,5 @@
 import React from "react";
-import fondo from "/public/fonde.jpg";
+import fondo from "/public/fondo.jpg";
 import About from "./About";
 import Technologies from "./Technologies";
 import { Typewriter } from "react-simple-typewriter";
@@ -27,11 +27,11 @@ const Main = () => {
       >
         <div className="z-10 ">
           <h1 className="text-white text-6xl font-semibold mb-1 leading-[70px] max-[670px]:text-3xl   max-[670px]:leading-[50px] ">
-            ¡Hola! soy Jhoel Terrel{" "}
+            Hola, soy Jhoel Terrel {" "}
             <span style={{ color: "#00dfd8", fontWeight: "bold" }}>
               {/* Style will be inherited from the parent element */}
               <Typewriter
-                words={["web developer"]}
+                words={["desarrollador web"]}
                 loop={Infinity}
                 cursor
                 cursorStyle="_"
@@ -45,7 +45,7 @@ const Main = () => {
           </h1>
 
           <p className="text-white text-3xl font-medium ">
-            apasionado por la tecnologia y la programación
+            fanático por las tecnologias de programación.
           </p>
         </div>
       </section>

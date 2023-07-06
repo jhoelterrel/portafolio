@@ -19,23 +19,23 @@ const NavBar = () => {
       {open ? (
         <i
           onClick={opens}
-          className="fa-sharp fa-solid fa-bars w-10 h-10 rounded-full text-xl bg-[#1337ff] fixed top-6 right-6 leading-[42px] text-center hidden max-[1050px]:block z-50 cursor-pointer"
+          className="fa-sharp fa-solid fa-bars w-10 h-10 rounded-full text-xl bg-[#030a33] fixed top-6 right-6 leading-[42px] text-center hidden max-[1050px]:block z-50 cursor-pointer"
         ></i>
       ) : (
         <i
           onClick={opens}
-          className="fa-sharp fa-solid fa-xmark w-10 h-10 rounded-full text-xl bg-[#1337ff] fixed top-6 right-6 leading-[42px] text-center hidden max-[1050px]:block   z-50 cursor-pointer"
+          className="fa-sharp fa-solid fa-xmark w-10 h-10 rounded-full text-xl bg-[#030a33] fixed top-6 right-6 leading-[42px] text-center hidden max-[1050px]:block   z-50 cursor-pointer"
         ></i>
       )}
 
       <header
-        className={`h-screen bg-gradient-to-r from-[#000000] to-[#242433] w-[300px] fixed top-0 left-0 bottom-0 py-8 px-6 z-40 transition-all duration-500 overflow-y-auto  ${
+        className={`h-screen bg-gradient-to-r from-[#49499c] to-[#143170] w-[300px] fixed top-0 left-0 bottom-0 py-8 px-6 z-40 transition-all duration-500 overflow-y-auto  ${
           open ? "max-[1050px]:left-[-300px]" : "max-[1050px]:left-[0px] "
         } `}
       >
         <div className="flex flex-col justify-center items-center ">
           <img
-            className="w-40 h-40 rounded-full object-cover border-4 border-[#0cfff3]"
+            className="w-40 h-40 rounded-full object-cover border-4 border-[#35c78f]"
             src={foto}
             alt=""
           />
@@ -44,26 +44,26 @@ const NavBar = () => {
           </h1>
           <div className="flex gap-2 text-2xl  ">
             <a
-              className="w-9 h-9 rounded-full bg-[#fcfcfc]  flex justify-center items-center p-3 hover:bg-[#0cfff3]	"
+              className="w-9 h-9 rounded-full bg-[#237fe9]  flex justify-center items-center p-3 hover:bg-[#35c78f]	"
               href="https://www.linkedin.com/in/jhoelterrel/"
               target="_blank"
             >
-               <i class="fa-brands fa-linkedin-in text-xl text-[#000000] "></i>
+               <i class="fa-brands fa-linkedin-in text-xl text-[#ffffff] "></i>
             </a>
             <a
-              className="w-9 h-9 rounded-full bg-[white]  flex justify-center items-center p-3	 hover:bg-[#0cfff3] 	"
+              className="w-9 h-9 rounded-full bg-[#000005]  flex justify-center items-center p-3	 hover:bg-[#35c78f] 	"
               href="https://github.com/jhoelterrel/"
               target="_blank"
             >
-              <i className="fa-brands fa-github  text-2xl text-[black] "></i>
+              <i className="fa-brands fa-github  text-2xl text-[#ffffff] "></i>
             </a>
            
             <a
-              className="w-9 h-9 rounded-full bg-[white]  flex justify-center items-center p-3 hover:bg-[#0cfff3]"
+              className="w-9 h-9 rounded-full bg-[#237fe9]  flex justify-center items-center p-3 hover:bg-[#35c78f]"
               href="https://www.facebook.com/jhoel.terrel/"
               target="_blank"
             >
-              <i class="fa-brands fa-facebook text-2xl text-[black]  "></i>
+              <i class="fa-brands fa-facebook text-2xl text-[#ffffff]  "></i>
             </a>
           </div>
         </div>
@@ -82,10 +82,10 @@ const NavBar = () => {
                 offset={-100}
                 duration={500}
                 onClick={closeMenu}
-                className="hover:text-[#00dfd8] cursor-pointer"
+                className="hover:text-[#35c78f] cursor-pointer"
               >
                 <i className="fa-solid fa-house text-xl mr-[10px] "></i>
-                Home
+                Inicio
               </Link>
             </li>
 
@@ -97,7 +97,7 @@ const NavBar = () => {
                 offset={0}
                 duration={500}
                 onClick={closeMenu}
-                className="hover:text-[#00dfd8]    cursor-pointer"
+                className="hover:text-[#35c78f]    cursor-pointer"
               >
                 <i className="fa-solid fa-user text-xl mr-[10px] "></i>
                 Acerca de Mí
@@ -112,7 +112,7 @@ const NavBar = () => {
                 offset={0}
                 duration={500}
                 onClick={closeMenu}
-                className="hover:text-[#00dfd8]  cursor-pointer "
+                className="hover:text-[#35c78f]  cursor-pointer "
               >
                 <i className="fa-sharp fa-solid fa-graduation-cap text-xl mr-[10px] "></i>
                 Educacion
@@ -127,7 +127,7 @@ const NavBar = () => {
                 offset={0}
                 duration={500}
                 onClick={closeMenu}
-                className="hover:text-[#00dfd8]  cursor-pointer "
+                className="hover:text-[#35c78f]  cursor-pointer "
               >
                <i class="fa-solid fa-diagram-project text-xl mr-[10px]"></i>
                 Proyectos
@@ -141,23 +141,23 @@ const NavBar = () => {
                 offset={0}
                 duration={500}
                 onClick={closeMenu}
-                className="hover:text-[#00dfd8] cursor-pointer"
+                className="hover:text-[#35c78f] cursor-pointer"
               >
                  <i class="fa-regular fa-address-card text-xl mr-[10px]"></i>
-                Contactos
+                Contacto
               </Link>
             </li>
           </ul>
         </nav>
 
         <div
-          className={`text-center w-[300px] fixed   bottom-0 mb-0  left-0 transition-all duration-500 z-50 bg-gradient-to-r from-[#000000] to-[#242433] ${
+          className={`text-center w-[300px] fixed   bottom-0 mb-0  left-0 transition-all duration-500 z-50 bg-gradient-to-r from-[#49499c] to-[#143170] ${
             open ? "max-[1050px]:left-[-300px]" : "max-[1050px]:left-[0px]"
           }`}
         >
           <p className="mb-4">
             &copy;copyright{"  "} {"  "}
-            <span className="font-semibold text-[#00dfd8]">Jhoel Terrel</span>
+            <span className="font-semibold text-[#35c78f]">Jhoel Terrel</span>
           </p>
         </div>
       </header>

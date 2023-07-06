@@ -4,10 +4,10 @@ const Resume = () => {
   return (
     <section
       id="Resume"
-      className="py-[50px] px-[15px] sm:px-[30px] bg-gradient-to-r from-[#16161f] to-[#000000]  text-white"
+      className="py-[50px] px-[15px] uppercase sm:px-[30px] bg-gradient-to-r from-[#49499c] to-[#143170]  text-white"
     >
       <h1
-        className="text-3xl font-semibold mb-3 text-[#00dfd8]"
+        className="text-3xl font-semibold mb-3 text-[#73f79f]"
         data-aos="flip-down"
       >
         Educacion y Experiencia
@@ -17,7 +17,7 @@ const Resume = () => {
       <div className="flex flex-col gap-5 mt-9 sm:justify-between  sm:flex-row   ">
         <div className="basis-[50%]">
           <div className="cols">
-            <h2 className="text-[#00dfd8] font-semibold text-xl my-4 mx-0">
+            <h2 className="text-[#73f79f] font-semibold text-xl my-4 mx-0">
               Resumen{" "}
             </h2>
 
@@ -33,23 +33,17 @@ const Resume = () => {
                 Jhoel Terrel
               </h3>
               <p className="font-semibold italic text-sm my-[10px] mx-0 text-justify">
-                Egresado de Academlo con
-                habilidades de socialización, la planificación de estrategias
-                para el logro de un buen objetivo y el liderazgo. Me gusta
-                aprender cosas nuevas, el poder lograr los objetivos propuestos,
-                tengo interés en desarrollarse en áreas muy avanzadas como
-                programación, diseño web,  me motiva trabajar en
-                equipo, el progreso y la buena presencia.
+              Bachiller en Ingeniería de Software de la Universidad Peruana de Ciencia Aplicadas; con experiencia en el rubro de Gestión de Proyectos, Administración de Base de Datos, Recursos Humanos y Soporte en TI, con capacidad para trabajar en equipo y de rápida adaptación al lugar de trabajo.
               </p>
               <ul className="pb-2">
                 <li className="my-2 ml-3 text-base font-medium">
-                  Perú-Lima-Ate-huaycan
+                  Perú-Lima-Ate
                 </li>
                 <li className="my-2 ml-3 text-base font-medium">
-                  (+51) 943-064-117
+                  (+51) 970-119-881
                 </li>
                 <li className="my-2 ml-3 text-base font-medium">
-                  droidjr10@gmail.com
+                  jhoel00742@gmail.com
                 </li>
               </ul>
             </div>
@@ -70,7 +64,7 @@ const Resume = () => {
                 <span className="py-1 px-5 text-sm font-semibold italic my-4 mx-0 inline-block rounded-sm bg-[#14b6bb]">
                   2022 - 2023
                 </span>
-                <p className="mb-4 italic font-medium">Academia, México</p>
+                <p className="mb-4 italic font-medium">Academlo, México</p>
                 <p className="font-normal text-base pb-4 text-justify">
                   Adquirí sólidos conocimientos en los fundamentos del
                   desarrollo web, incluidos HTML, CSS y JavaScript. También
@@ -101,40 +95,34 @@ const Resume = () => {
             data-aos-duration="3000"
           >
             <h3 className="text-base font-semibold uppercase text-[#00dfd8]">
-              Desarrollador Frontend React
+             Jefe de Desarrollo de Aplicaciones
             </h3>
             <span className="py-1 px-5 text-sm font-semibold italic my-4 mx-0 inline-block rounded-sm bg-[#14b6bb]">
-              2023 - 2023
+              2019 - Actualidad
             </span>
             <p className="text-base italic font-normal">
-              Buenos Aires, Argentina
+              CELER SAC, Perú
             </p>
             <ul className="pb-1">
               <li className="my-[10px] mx-0 text-base text-justify font-normal ">
-                Contribuí e implemente diseños de interfaz de usuario y
-                funcionales utilizando componentes en React.
+              Liderar y asegurar la ejecución oportuna y eficiente de los servicios de soporte y mantenimiento evolutivo de las aplicaciones que administramos para nuestros clientes.
               </li>
               <li className="my-[10px] mx-0 text-base text-justify font-normal">
-                Trabajé en equipo utilizando herramientas de control de
-                versiones como Git y las metodologias ágiles para la entrega de
-                las tareas asignadas a tiempo
+              Gestionar el grupo de aplicaciones en la correcta atención de los tickets de soporte levantados por nuestros clientes, coordinando el análisis, estimación y priorización de los mismos, aplicando principios de agilidad orientados a generar mayor valor a nuestros clientes.
               </li>
 
               <li className="my-[10px] mx-0 text-base text-justify font-normal">
-                Realizar pruebas para asegurar que se cumplio con todos los
-                requisitos y estándares de calidad que se iba a realizar al
-                inicio del proyecto
+              Gestionar el entendimiento de las necesidades de nuestros clientes, planteando soluciones optimas y eficientes para mantener las aplicaciones estables, escalables y robustas.
               </li>
               <li className="my-[10px] mx-0 text-base text-justify font-normal">
-                Se logro realizar el proyecto acabado en un tiempo estimado de 4
-                semanas, con todos los requisitos propuestos
+              Crear un ambiente comunicativo, colaborativo y preventivo con nuestros clientes para la atención de los incidentes, problemas y requerimientos evolutivos que sean presentados como parte del servicio de soporte y mantenimiento.
               </li>
               <li className="text-right mx-0 text-lg text-[#00dfd8] font-semibold ">
                 <a
                   href="#"
                   target={"_blank"}
                 >
-                  Dar click aquí para visualizar el proyecto
+                  Dar click aquí para visualizar mis Proyectos Realizados
                 </a>
               </li>
             </ul>
